@@ -37,7 +37,7 @@ def post_tea_requests(tea_requests):
         post(get_user_name(tea_request) + ' wants ' + tea_request['text'])
 
 def post_decision(message):
-    text =  get_user_name(message) + ' is up'
+    text =  'natalie is up'
     print text
     post(text)
     post("Enter your type of tea or coffee to start another round")
